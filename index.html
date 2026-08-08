@@ -135,6 +135,16 @@
     gap: 16px;
     margin-bottom: 40px;
   }
+  .package-category {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--navy);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 48px 0 22px;
+  }
+  .package-category:first-of-type { margin-top: 0; }
   .tab-pill {
     background: var(--cream);
     color: var(--navy);
@@ -361,10 +371,7 @@
   <div class="container">
     <h2 class="section-title">Popular Packages</h2>
     <p class="section-sub">A mix of our most-loved domestic and international getaways.</p>
-    <div class="tabs-label">
-      <span class="tab-pill">🇮🇳 Domestic</span>
-      <span class="tab-pill">🌍 International</span>
-    </div>
+    <h3 class="package-category">🇮🇳 Domestic Packages</h3>
     <div class="package-grid">
       <div class="package-card">
         <div class="package-img bg1">🏔️</div>
@@ -403,17 +410,21 @@
         </div>
       </div>
       <div class="package-card">
-        <div class="package-img bg2">🕌</div>
+        <div class="package-img bg3">🏰</div>
         <div class="package-body">
-          <span class="tag">International</span>
-          <h3>Dubai City Lights</h3>
-          <p>4N/5D · Desert safari, Burj Khalifa &amp; city tour. Visa assist included.</p>
+          <span class="tag">Domestic</span>
+          <h3>Rajasthan Royal Trail</h3>
+          <p>5N/6D · Jaipur, Jodhpur &amp; Udaipur with heritage stays.</p>
           <div class="package-price">
-            <strong>₹49,999</strong>
+            <strong>₹23,999</strong>
             <a href="#contact" class="price-btn">Enquire</a>
           </div>
         </div>
       </div>
+    </div>
+
+    <h3 class="package-category">🌍 International Packages</h3>
+    <div class="package-grid">
       <div class="package-card">
         <div class="package-img bg3">🗼</div>
         <div class="package-body">
@@ -427,13 +438,73 @@
         </div>
       </div>
       <div class="package-card">
-        <div class="package-img bg5">🏰</div>
+        <div class="package-img bg6">🚤</div>
         <div class="package-body">
           <span class="tag">International</span>
-          <h3>Europe Highlights</h3>
-          <p>8N/9D · Paris, Switzerland &amp; Italy grand tour.</p>
+          <h3>Vietnam Discovery</h3>
+          <p>5N/6D · Hanoi, Ha Long Bay &amp; Da Nang highlights.</p>
           <div class="package-price">
-            <strong>₹1,29,999</strong>
+            <strong>₹62,999</strong>
+            <a href="#contact" class="price-btn">Enquire</a>
+          </div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img bg1">🌴</div>
+        <div class="package-body">
+          <span class="tag">International</span>
+          <h3>Bali Island Escape</h3>
+          <p>5N/6D · Ubud, Kuta &amp; Nusa Penida adventures.</p>
+          <div class="package-price">
+            <strong>₹58,999</strong>
+            <a href="#contact" class="price-btn">Enquire</a>
+          </div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img bg4">🐠</div>
+        <div class="package-body">
+          <span class="tag">International</span>
+          <h3>Maldives Water Villa</h3>
+          <p>4N/5D · Island resort stay, snorkelling &amp; sunset cruise.</p>
+          <div class="package-price">
+            <strong>₹74,999</strong>
+            <a href="#contact" class="price-btn">Enquire</a>
+          </div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img bg6">🌺</div>
+        <div class="package-body">
+          <span class="tag">International</span>
+          <h3>Mauritius Paradise</h3>
+          <p>6N/7D · Beaches, waterfalls &amp; island excursions.</p>
+          <div class="package-price">
+            <strong>₹82,999</strong>
+            <a href="#contact" class="price-btn">Enquire</a>
+          </div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img bg2">🎡</div>
+        <div class="package-body">
+          <span class="tag">International</span>
+          <h3>Singapore Family Fun</h3>
+          <p>4N/5D · Gardens by the Bay, Sentosa &amp; city sights.</p>
+          <div class="package-price">
+            <strong>₹56,999</strong>
+            <a href="#contact" class="price-btn">Enquire</a>
+          </div>
+        </div>
+      </div>
+      <div class="package-card">
+        <div class="package-img bg5">🕌</div>
+        <div class="package-body">
+          <span class="tag">International</span>
+          <h3>Dubai City Lights</h3>
+          <p>4N/5D · Desert safari, Burj Khalifa &amp; city tour.</p>
+          <div class="package-price">
+            <strong>₹49,999</strong>
             <a href="#contact" class="price-btn">Enquire</a>
           </div>
         </div>
